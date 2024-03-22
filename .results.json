@@ -2,18 +2,18 @@
   "stats": {
     "suites": 4,
     "tests": 6,
-    "passes": 5,
+    "passes": 6,
     "pending": 0,
-    "failures": 1,
-    "start": "2024-03-21T14:04:46.895Z",
-    "end": "2024-03-21T14:04:47.292Z",
-    "duration": 397
+    "failures": 0,
+    "start": "2024-03-22T07:07:44.802Z",
+    "end": "2024-03-22T07:07:45.364Z",
+    "duration": 562
   },
   "tests": [
     {
       "title": "is set as Scuber",
       "fullTitle": "index.js companyName is set as Scuber",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
@@ -22,12 +22,7 @@
       "fullTitle": "index.js companyName is defined as a const",
       "duration": 1,
       "currentRetry": 0,
-      "err": {
-        "message": "Expected companyName to be a const: expected 'let companyName = \\'Scuber\\';\\nconst CompanyName =\\'Scuber\\';\\nlet companyCeo =\\'Susan Smith\\';\\nlet mostProfitableNeighborhood =\\'Chelsea\\';' to match /const companyName/",
-        "showDiff": false,
-        "actual": "let companyName = 'Scuber';\nconst CompanyName ='Scuber';\nlet companyCeo ='Susan Smith';\nlet mostProfitableNeighborhood ='Chelsea';",
-        "stack": "AssertionError: Expected companyName to be a const: expected 'let companyName = \\'Scuber\\';\\nconst CompanyName =\\'Scuber\\';\\nlet companyCeo =\\'Susan Smith\\';\\nlet mostProfitableNeighborhood =\\'Chelsea\\';' to match /const companyName/\n    at Context.<anonymous> (test/indexTest.js:15:21)\n    at process.processImmediate (node:internal/timers:478:21)"
-      }
+      "err": {}
     },
     {
       "title": "is declared as equal to Chelsea",
@@ -46,7 +41,7 @@
     {
       "title": "is declared as equal to Susan Smith",
       "fullTitle": "index.js companyCeo is declared as equal to Susan Smith",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
@@ -59,25 +54,19 @@
     }
   ],
   "pending": [],
-  "failures": [
-    {
-      "title": "is defined as a const",
-      "fullTitle": "index.js companyName is defined as a const",
-      "duration": 1,
-      "currentRetry": 0,
-      "err": {
-        "message": "Expected companyName to be a const: expected 'let companyName = \\'Scuber\\';\\nconst CompanyName =\\'Scuber\\';\\nlet companyCeo =\\'Susan Smith\\';\\nlet mostProfitableNeighborhood =\\'Chelsea\\';' to match /const companyName/",
-        "showDiff": false,
-        "actual": "let companyName = 'Scuber';\nconst CompanyName ='Scuber';\nlet companyCeo ='Susan Smith';\nlet mostProfitableNeighborhood ='Chelsea';",
-        "stack": "AssertionError: Expected companyName to be a const: expected 'let companyName = \\'Scuber\\';\\nconst CompanyName =\\'Scuber\\';\\nlet companyCeo =\\'Susan Smith\\';\\nlet mostProfitableNeighborhood =\\'Chelsea\\';' to match /const companyName/\n    at Context.<anonymous> (test/indexTest.js:15:21)\n    at process.processImmediate (node:internal/timers:478:21)"
-      }
-    }
-  ],
+  "failures": [],
   "passes": [
     {
       "title": "is set as Scuber",
       "fullTitle": "index.js companyName is set as Scuber",
-      "duration": 0,
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "is defined as a const",
+      "fullTitle": "index.js companyName is defined as a const",
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
@@ -98,7 +87,7 @@
     {
       "title": "is declared as equal to Susan Smith",
       "fullTitle": "index.js companyCeo is declared as equal to Susan Smith",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
